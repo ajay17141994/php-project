@@ -1,0 +1,281 @@
+<html>
+<head>
+    <title>
+    </title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker-standalone.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+
+
+    <body>
+        <div class="container" style="background-color:ghostwhite;  margin-top:50px;">
+            <div class="row userInfo" style="padding: 10px;margin:10px;  ">
+                <!-- <input id="pac-input" class="controls" type="text" placeholder="Search Box"> -->
+                <div class="col-sm-12 col-md-12 col-lg-12 userInfo_col" style="margin-bottom: 10px;padding-top: 25px;">
+                    <div class="col-sm-12 col-md-12 col-lg-12 userInfo_name" style="text-align:center;margin-bottom:25px; text-align: -webkit-center;">
+                        <h4 style="font-size:50px;">ABHAY</h4>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-12 userInfo_img">
+                        <img class="img-circle img-responsive center-block" src="images/broccoli.jpg" style="width:125px;height:125px;">
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 userInfo_mobile" style="text-align:center;margin-bottom:25px;margin-top: 2px; text-align: -webkit-center;">
+                        <h4 style="font-size:50px;">8854859635</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 sticky sticky_div" style="z-index:1;padding-top:20px;   margin-bottom: 10px;">
+                <div class="row" id="user_detail" style="display:none;">
+                    <div class="col-sm-6 col-md-6 col-lg-6 sticky_div_name" style="text-align:center;">
+                        <h4 style="font-size:50px;">ABHAY</h4>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 sticky_div_mobile" style="text-align:center;">
+                        <h4 style="font-size:50px;">8854859635</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <h4 id="location" style="text-align: center;"></h4>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-sm-6 col-md-6 col-lg-6 listing" style="font-size:36px;text-align:center;">
+                        <h2 style="font-size:45px;">Listings</h2>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 orders" style="font-size:36px;text-align:center;">
+                        <h2 style="font-size:45px;">Orders</h2>
+                    </div>
+                   
+                </div>
+            </div>
+
+
+
+
+            <div class="col-sm-12 col-md-12 col-lg-12 listing_view" style="padding-right:0px;padding-left:0px;margin-bottom: 10px;padding-top: 25px;">
+                <div class="col-sm-12 col-md-12 col-lg-12 list_view_child" style="margin-bottom:25px;">
+                    <div class="container list_view_childContainer" style="padding-right:0px;padding-left:0px;">
+                        <!-- <h2>Panel Footer</h2> -->
+                        <div class="panel panel-default" data-toggle="modal" data-target=".detail">
+                            <div class="panel-heading heading" style="color:#545454;background-color:#FFFFFF;">SKV ID: 001</div>
+                            <div class="panel-body" style="margin-bottom: 30px;">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <div class="col-sm-4 col-md-4 col-lg-4">
+                                            <img class="img-circle img-responsive" src="images/broccoli.jpg" style="width:150px;height:150px;">
+                                            <div class="list_view_imgOverlap" style="width:100%;height:140%;position:absolute;border-right:2px solid #ABABAB;top:-15px;margin-left:-40%; transform:skewX(-10deg);"></div>
+                                        </div>
+                                        <div class="col-sm-5 col-md-5 col-lg-5 list_view_ProductName" style="color:#26c6da;text-align:center;">
+                                            <h3 class="product_category">BROCCOLI</h3>
+                                            <span style="color:grey;">
+                                            <h4 class="breed" >Nimach kiaros</h4>
+                                        </span>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-3">
+                                            <div id="list_viewPrice_Tag">
+                                                <div>&#x20b9; 5/kg</div>
+                                            </div>
+                                            <!-- <h4>Nimach kiaros</h4> -->
+                                            <!-- <button type="button" class="btn btn-outline-primary " style="width:4%;margin-top: 20px;color: #432F21;background-color: transparent;border: 4px solid #dfded4;">&#x20b9; 100/kg</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-footer"> <button type="button" class="btn btn-outline-primary">Primary</button></div> -->
+                        </div>
+
+                        <div class="panel panel-default" data-toggle="modal" data-target=".detail">
+                            <div class="panel-heading heading " style="color:#545454;background-color:#FFFFFF;">SKV ID: 001</div>
+                            <div class="panel-body" style="margin-bottom: 30px;">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <div class="col-sm-4 col-md-4 col-lg-4">
+                                            <img class="img-circle img-responsive" src="images/carrots-vegetables.jpg" style="width:150px;height:150px;">
+                                            <div style="width:100%;height:140%;position:absolute;border-right:2px solid #ABABAB;top:-15px;margin-left:-40%; transform:skewX(-10deg);"></div>
+
+                                        </div>
+                                        <div class="col-sm-5 col-md-5 col-lg-5" style="color:#26c6da;text-align:center;">
+                                            <h3 class="product_category">CARROT</h3>
+                                            <span style="color:grey;">
+                                            <h4 class="breed" >Nimach kiaros</h4>
+                                        </span>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-3">
+                                            <div id="list_viewPrice_Tag">
+                                                <div>&#x20b9; 50/kg</div>
+                                            </div>
+                                            <!-- <h4>Nimach kiaros</h4> -->
+                                            <!-- <button type="button" class="btn btn-outline-primary" style="width:100%;margin-top: 20px;color: #432F21;background-color: transparent;border: 4px solid #dfded4;">&#x20b9; 100/kg</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-footer"> <button type="button" class="btn btn-outline-primary">Primary</button></div> -->
+                        </div>
+                        <div class="panel panel-default" data-toggle="modal" data-target=".detail">
+                            <div class="panel-heading heading" style="color:#545454;background-color:#FFFFFF;">SKV ID: 001</div>
+                            <div class="panel-body" style="margin-bottom: 30px;">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <div class="col-sm-4 col-md-4 col-lg-4">
+                                            <img class="img-circle img-responsive" src="images/Coriander-Leaves.jpg" style="width:150px;height:150px;">
+                                            <div style="width:100%;height:140%;position:absolute;border-right:2px solid #ABABAB;top:-15px;margin-left:-40%; transform:skewX(-10deg);"></div>
+
+                                        </div>
+                                        <div class="col-sm-5 col-md-5 col-lg-5" style="color:#26c6da;text-align:center;">
+                                            <h3 class="product_category">CORIANDER</h3>
+                                            <span style="color:grey;">
+                                            <h4 class="breed" >Nimach kiaros</h4>
+                                        </span>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-3">
+                                            <div id="list_viewPrice_Tag">
+                                                <div>&#x20b9; 100/kg</div>
+                                            </div>
+                                            <!-- <h4>Nimach kiaros</h4> -->
+                                            <!-- <button type="button" class="btn btn-outline-primary" style="width:100%;margin-top: 20px;color: #432F21;background-color: transparent;border: 4px solid #dfded4;">&#x20b9; 100/kg</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-footer"> <button type="button" class="btn btn-outline-primary">Primary</button></div> -->
+                        </div>
+
+                        <div class="panel panel-default" data-toggle="modal" data-target=".detail">
+                            <div class="panel-heading heading" style="color:#545454;background-color:#FFFFFF;">SKV ID: 001</div>
+                            <div class="panel-body" style="margin-bottom: 30px;">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <div class="col-sm-4 col-md-4 col-lg-4">
+                                            <img class="img-circle img-responsive" src="images/image_5935aa1b78f80.jpg" style="width:150px;height:150px;">
+                                            <div style="width:100%;height:140%;position:absolute;border-right:2px solid #ABABAB;top:-15px;margin-left:-40%; transform:skewX(-10deg);"></div>
+
+                                        </div>
+                                        <div class="col-sm-5 col-md-5 col-lg-5" style="color:#26c6da;text-align:center;">
+                                            <h3 class="product_category">RED CHILLI</h3>
+                                            <span style="color:grey;">
+                                            <h4 class="breed">Nimach kiaros</h4>
+                                        </span>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-3">
+                                            <div id="list_viewPrice_Tag">
+                                                <div>&#x20b9; 400/kg</div>
+                                            </div>
+                                            <!-- <h4>Nimach kiaros</h4> -->
+                                            <!-- <button type="button" class="btn btn-outline-primary" style="width:100%;margin-top: 20px;color: #432F21;background-color: transparent;border: 4px solid #dfded4;">&#x20b9; 100/kg</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-footer"> <button type="button" class="btn btn-outline-primary">Primary</button></div> -->
+                        </div>
+
+                        <div class="panel panel-default" data-toggle="modal" data-target=".detail">
+                            <div class="panel-heading heading" style="color:#545454;background-color:#FFFFFF;">SKV ID: 001</div>
+                            <div class="panel-body" style="margin-bottom: 30px;">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <div class="col-sm-4 col-md-4 col-lg-4">
+                                            <img class="img-circle img-responsive" src="images/images.jpg" style="width:150px;height:150px;">
+                                            <div style="width:100%;height:140%;position:absolute;border-right:2px solid #ABABAB;top:-15px;margin-left:-40%; transform:skewX(-10deg);"></div>
+
+                                        </div>
+                                        <div class="col-sm-5 col-md-5 col-lg-5" style="color:#26c6da;text-align:center;">
+                                            <h3 class="product_category">POMEGRANATE</h3>
+                                            <span style="color:grey;">
+                                            <h4 class="breed" >Nimach kiaros</h4>
+                                        </span>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-3">
+                                            <div id="list_viewPrice_Tag">
+                                                <div>&#x20b9; 300/kg</div>
+                                            </div>
+                                            <!-- <h4>Nimach kiaros</h4> -->
+                                            <!-- <button type="button" class="btn btn-outline-primary" style="width:100%;margin-top: 20px;color: #432F21;background-color: transparent;border: 4px solid #dfded4;">&#x20b9; 100/kg</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-footer"> <button type="button" class="btn btn-outline-primary">Primary</button></div> -->
+                        </div>
+
+                        <div class="panel panel-default" data-toggle="modal" data-target=".detail">
+                            <div class="panel-heading heading" style="color:#545454;background-color:#FFFFFF;">SKV ID: 001</div>
+                            <div class="panel-body" style="margin-bottom: 30px;">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <div class="col-sm-4 col-md-4 col-lg-4">
+                                            <img class="img-circle img-responsive" src="images/Tomato-Clip-Art-PNG.png" style="width:150px;height:150px;">
+                                            <div style="width:100%;height:140%;position:absolute;border-right:2px solid #ABABAB;top:-15px;margin-left:-40%; transform:skewX(-10deg);"></div>
+
+                                        </div>
+                                        <div class="col-sm-5 col-md-5 col-lg-5" style="color:#26c6da;text-align:center;">
+                                            <h3 class="product_category">TOMATO</h3>
+                                            <span style="color:grey;">
+                                            <h4 class="breed" >Nimach kiaros</h4>
+                                        </span>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-3">
+                                            <div id="list_viewPrice_Tag">
+                                                <div>&#x20b9; 400/kg</div>
+
+                                            </div>
+                                            <!-- <h4>Nimach kiaros</h4> -->
+                                            <!-- <button type="button" class="btn btn-outline-primary" style="width:100%;margin-top: 20px;color: #432F21;background-color: transparent;border: 4px solid #dfded4;">&#x20b9; 100/kg</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-footer"> <button type="button" class="btn btn-outline-primary">Primary</button></div> -->
+                        </div>
+
+                        <div class="panel panel-default" data-toggle="modal" data-target=".detail">
+                            <div class="panel-heading heading" style="color:#545454;background-color:#FFFFFF;">SKV ID: 001</div>
+                            <div class="panel-body" style="margin-bottom: 30px;">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <div class="col-sm-4 col-md-4 col-lg-4">
+                                            <img class="img-circle img-responsive" src="images/broccoli.jpg" style="width:150px;height:150px;">
+                                            <div style="width:100%;height:140%;position:absolute;border-right:2px solid #ABABAB;top:-15px;margin-left:-40%; transform:skewX(-10deg);"></div>
+
+                                        </div>
+                                        <div class="col-sm-5 col-md-5 col-lg-5" style="color:#26c6da;text-align:center;">
+                                            <h3 class="product_category">BROCCOLI</h3>
+                                            <span style="color:grey;">
+                                            <h4 class="breed" >Nimach kiaros</h4>
+                                        </span>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-3">
+                                            <div id="list_viewPrice_Tag">
+                                                <div>&#x20b9; 400/kg</div>
+                                            </div>
+                                            <!-- <h4>Nimach kiaros</h4> -->
+                                            <!-- <button type="button" class="btn btn-outline-primary" style="width:100%;margin-top: 20px;color: #432F21;background-color: transparent;border: 4px solid #dfded4;">&#x20b9; 100/kg</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-footer"> <button type="button" class="btn btn-outline-primary">Primary</button></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+
+
+    </body>
+
+</html>

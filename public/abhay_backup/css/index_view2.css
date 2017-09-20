@@ -1,0 +1,390 @@
+
+
+
+        @media only screen and (max-width: 500px)  {
+            .product_category
+            {
+                font-size: 45px;
+                color:#545454;
+            }
+
+            .breed
+            {
+                font-size: 45px;
+                color:#ABABAB;
+            }
+            .heading
+            {
+                font-size: 45px;
+                color:#545454;
+                border-bottom:2px solid grey;
+                background-color:#FFFFFF;
+            }
+            .post_product
+            {
+                width:150px;
+                height:150px;
+                position: fixed;
+                bottom: 20px;
+                right: 50px;
+                z-index: 99;
+                border: none;
+                outline: none;
+                color: white;
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 50%;
+                background-color: #CDCAB9;
+                border: 0px solid transparent;
+
+            }
+            .plus_icon
+            {
+                position :absolute;
+                top:40px;
+                left:48px;
+                font-size: 65px;
+                color: black;
+            }
+            .post_button
+            {   
+                background-color: aliceblue;
+                border-color: #26c6da;
+                font-size: 45px;
+            }
+            .product_form
+            {
+                font-size: 32px;
+            }
+
+            .btn {
+                font-size: 32px;
+                border: 1px solid #CDCAB9;
+                background-color: #CDCAB9;
+            }
+            .dropdown > span {
+                font-size: 26px;
+            }
+            .price
+            {
+                font-size: 50px;;
+            }
+            }
+.header
+            {
+                position:relative; 
+            }
+            .name
+            {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 35px;
+                line-height: 28px;
+                margin: 10px 0 0;
+                font-weight: 900;
+                text-align: center;
+                text-transform: capitalize;
+            }
+            .description
+            {
+                 font-size: 22px;
+                 padding:10px;
+            }
+            .product .img-responsive {
+                margin: 0 auto;
+            }
+            .product_category
+            {
+                font-size: 24px;
+            }
+
+            .breed
+            {
+                font-size: 22px;
+            }
+
+            .heading
+            {
+                font-size: 22px;
+                    /* font-size: 45px; */
+                color:#545454;
+                border-bottom:2px solid grey;
+                background-color:#FFFFFF;
+            }
+
+            .post_product
+            {
+                width:50px;
+                height:50px;
+                position: fixed;
+                bottom: 20px;
+                right: 50px;
+                z-index: 99;
+                border: none;
+                outline: none;
+                color: white;
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 50%;
+                border: 0px solid transparent;
+            }
+            .plus_icon
+            {
+                position :absolute;
+                top:19px;
+                left:21px;
+            }
+
+            .price
+            {
+                font-size: 28px;
+            }
+    
+
+            .test {
+                width: 100%;
+                position: relative;
+                background-position: bottom left;
+                /* background-image: url("http://emoticonswallpapers.com/background/animals/animal-backgound-pattern-015.gif"); */
+            }
+
+            .test:after {
+                content: "";
+                position: absolute;
+                width: 103%;
+                height: 2px;
+                top: 100%;
+                right: 0px;
+                transform: rotate(-14deg);
+                transform-origin: top right;
+                box-shadow: 0px 4px 6px 0px black;
+            }
+
+            .trianglebase {
+                width: 100%;
+                padding-top: 25%;
+                position: absolute;
+                top: 100%;
+                left: 0px;
+                overflow: hidden;
+                z-index: -1;
+            }
+
+            .triangleinner {
+                width: 104%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                transform: rotate(-14deg);
+                transform-origin: bottom left;
+                overflow: hidden;
+            }
+
+            .triangleinner:after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0px;
+                left: 0px;
+                /* background-image: url("http://emoticonswallpapers.com/background/animals/animal-backgound-pattern-015.gif"); */
+                transform: rotate(14deg);
+                transform-origin: bottom left;
+            }
+            .btn-circle-lg {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            padding: 13px 0;
+            font-size: 30px;
+            line-height: 2.00;
+            border-radius: 70px;
+            float:right;
+            margin:-60px;
+            }
+
+
+
+
+
+            .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+                outline: 0px auto -webkit-focus-ring-color;
+                outline-offset: 0px;
+            }
+
+            #list_viewPrice_Tag {
+            padding: 0 0 18px 0;
+            position: absolute;
+            right: 0.25em;
+            top: -0.25em;
+            width: 200px;
+            margin-top:-97px;
+            }
+            #list_viewPrice_Tag div {
+            background: green;
+            background: linear-gradient(green 0%, green 100%);
+            color: #fff;
+            padding: 0.5em 0;
+            text-align: center;
+            font-size:45px; 
+            text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+            }
+            #list_viewPrice_Tag div:after {
+            border-left: 100px solid green;
+            border-right: 100px solid green;
+            border-bottom: 19px solid transparent;
+            bottom: 0;
+            content: '';
+            height: 0;
+            left: 0;
+            position: absolute;
+            width: 200px;
+            }
+
+            .listing
+            {
+                background-color: grey;
+                color: white;
+            }
+            .orders
+            {
+                background-color: white;
+                text-color:black;
+            }
+            .pac-container {
+                z-index: 100000;
+                font-size: 45px;
+            }
+            .pac-item {
+                padding-top:10px;
+                font-size: 45px;
+                height:80px;
+            }
+            .pac-item-query
+            {
+                padding-top:10px;
+                font-size: 45px;
+                height:80px;
+            }
+
+
+
+            .select_join {
+            
+            width: 650px;
+            height: 125px;
+            overflow: hidden;
+            /* background: url('http://s24.postimg.org/lyhytocf5/dropdown.png') no-repeat right #FEFEFE; */
+            border: #26c6da 1px solid;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            -webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+            box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+            }
+            .select_join select {
+            
+            background: transparent;
+            width: 650px;
+            font-size:55px;
+            color:grey;
+            border: 0;
+            border-radius: 0;
+            min-height: 125px;
+            -webkit-appearance: none;
+            
+            }
+            .select_join select:focus {
+                outline: none;
+
+            }
+            .select_join option {
+                font-size:55px;
+            }
+
+            .input_box
+            {
+                width:650px;
+                height:125px;
+                font-size:55px;
+            }
+            #input_info
+            {
+                height: 125px !important;
+                font-size: 45px;
+                color: #ABABAB;
+            }
+            #select_options
+            {
+                color:black;
+                border:0px;
+                background-color:transparent;
+                font-size:45px;
+                height:100%;
+                min-width:175px;
+                padding-left: 50px;
+            }
+            .input_span
+            {
+                padding-left:0px;
+                padding-right:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+                font-size: 55px;
+                background-color: aqua;
+                color: white;   
+            }
+            .product_formalign
+            {
+                text-align: -webkit-center;
+                /* text-align: center */
+                margin-top:20px;
+                margin-bottom:20px;
+            }
+            .update_label
+            {
+                font-size:45px;
+                color:#545454;
+                border: 0px;
+                box-shadow: 0px 0px 0px 0px;
+            }
+            .update_input_group
+            {
+                width:500px;
+                height:125px ;
+
+            }
+            .update_input
+            {
+                font-size:50px;
+                height:125px !important;
+                width:500px;
+            }
+
+
+/*swipper css  */
+.swiper-container {
+        width: 100%;
+        height:490px;
+    }
+    .swiper-slide {
+        min-width:275px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        min-height:450px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    /*swipper css ends here..........  */
